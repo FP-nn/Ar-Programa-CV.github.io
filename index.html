@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/661c0bf746.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CV-ArPrograma4.0</title>
+</head>
+<body>
+    <div class="header-and-main">
+        <i class="fa-solid fa-bars header__burger-menu" id="closeHeaderIcon"></i>
+        <header class="header" id="header">
+            <div class="profile">
+                <div class="profile__round-container">
+                    <img src="https://randomuser.me/api/portraits/men/60.jpg"  class="profile__short-img" alt="mini imagen de perfil">
+                </div>
+                <h1 class="header__full-name">Nicolas Sabules</h1>
+                <div class="social-media-icons">
+                    <a class="social-media-icons__anchors" href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a class="social-media-icons__anchors" href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a class="social-media-icons__anchors" href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a class="social-media-icons__anchors" href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a class="social-media-icons__anchors" href="#">
+                        <i class="fa-brands fa-github"></i>
+                    </a>  
+                </div>
+            </div>
+            <div class="nav-bar-and-btn">
+                <nav class="nav-bar">
+                    <a class="nav-bar__anchor" href="#">
+                       <div class="nav-bar__icon-name">
+                            <i id="homeIcon" class="fa-solid fa-house-chimney nav-bar__icon "></i>
+                            <span id="homeName" class="nav-bar__name">Inicio</span>
+                       </div>
+                    </a>
+                    <a class="nav-bar__anchor" href="#about">
+                        <div class="nav-bar__icon-name">
+                            <i id="aboutIcon" class="fa-solid fa-user nav-bar__icon"></i>
+                            <span id="aboutName" class="nav-bar__name">Sobre mi</span>
+                        </div>
+                    </a>
+                    <a class="nav-bar__anchor" href="#skills">
+                        <div class="nav-bar__icon-name">
+                            <i id="skillsIcon" class="fa-solid fa-sheet-plastic nav-bar__icon"></i>
+                            <span id="skillsName" class="nav-bar__name">Cualidades</span>
+                        </div>
+                    </a>
+                    <a class="nav-bar__anchor" href="#professionalexp">
+                        <div class="nav-bar__icon-name">
+                            <i id="professionalexpIcon" class="fa-solid fa-list nav-bar__icon"></i>
+                            <span id="professionalexpName" class="nav-bar__name">Experiencia profesional</span>
+                        </div>
+                    </a>
+                </nav> 
+                <buton class="header__tn" id="btnContact"></buton>    
+            </div>  
+        </header>
+        <main class="main">
+            <section class="main__section home sectionObserver" id="home"> <!-- home --> 
+                <div class="home__name-profesion">
+                    <h2 class="home__full-name">Nicolas Sabules</h2>
+                    <h4 class="home__profesion"><span class="typed"></span></h4> <!-- poner animacion en el subtitle  -->  
+                </div>
+            </section>
+
+            <section class="main__section main__section--margin about sectionObserver" id="about"><!-- about -->
+                <div>
+                    <h2 class="main__section-title">Sobre mi<div class="main__title-line"></div></h2>
+                    <p class="main__section-description">Soy una persona capacitada para realizar todo tipo de trabajos relacionados a la rama de la programacion.</p>
+                </div>
+                <div>
+                    <div>
+                    </div>
+                    <div  class="TitleDescptnAndUl">
+                        <h2>Estudiante</h2>
+                        <p class="main__section-description">Actualmente me encuentro en proceso de formacion en Programacion, mas precisamente en la segunda etapa del curso de Argentina Programa 4.0</p>
+                        <ul class="about__ul observer displaced-right">
+                            <li class="about__ul__li"><i class="about__ul__icon fa-solid fa-phone"></i><strong class="about__ul__li-title">Telefono:</strong> +549 388 5102509</li>
+                            <li class="about__ul__li"><i class="about__ul__icon fa-solid fa-location-dot"></i><strong class="about__ul__li-title">Pais:</strong>Argentina</li>
+                            <li class="about__ul__li"><i class="about__ul__icon fa-solid fa-calendar-days"></i><strong class="about__ul__li-title">Edad:</strong> 28</li>
+                            <li class="about__ul__li"><i class="about__ul__icon fa-solid fa-envelope"></i><strong class="about__ul__li-title">E-mail:</strong> nicolas_05@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="education">
+                    <h2 class="main__section-title">Formacion Academica<div class="main__title-line"></div></h2>
+                    <ul class="ul__with-description observer displaced-bottom" >
+                        <li class="ul__with-description__li">
+                            <h3 class="ul__with-description__title">Nivel Primario 1998-2005</h3>
+                        <p>Ecuela Nº 205 Provincia de Cordoba</p>
+                        </li>
+                        
+                        <li class="ul__with-description__li">
+                            <h3 class="ul__with-description__title">Nivel Secundario 2006-2011</h3>
+                        <p>Colegio Secundario Nº 13 Del Salvador</p>
+                        </li>
+                        
+                        <li class="ul__with-description__li">
+                            <h3 class="ul__with-description__title">Nivel Universitario 2012-2016</h3>
+                        <p>Lic. en Comunicaciones - Universidad Catolica de Santiago del Estero</p>
+                            
+                        </li>
+                        
+                    </ul>
+                </div>
+            </section>
+
+            <section class="main__section main__section--margin skills sectionObserver" id="skills"><!-- skills -->
+                <h2 class="main__section-title">Cualidades<div class="main__title-line"></div></h2>
+                <p class="main__section-description">Persona capacitada para realizar tares en el area de informatica.</p>
+                <div class="skills__container observer displaced-left">
+                <h5 class="skills__title-section">Habilidades personales</h5>                    
+                    <ul class="skills__ul" id="ulIntellect"></ul>
+                </div>
+            </section>
+
+            <section class="main__section main__section--margin main__section--proExperience sectionObserver" id="professionalexp"><!-- experience-->
+                <h2 class="main__section-title">Experiencia Profesional<div class="main__title-line"></div></h2>
+                <p class="main__section-description">Trabaje haciendo reparaciones de elementos informaticos PC- Scanners </p>
+                    <ul class="ul__with-description observer displaced-bottom">
+                        <li class="ul__with-description__li">
+                            <h3 class="ul__with-description__title" >2014-2016 -> MundoTecno (Reparaciones de pcs)</p>
+                        </li>
+                        <li class="ul__with-description__li">
+                            <h3 class="ul__with-description__title">2016-2017 -> La Casa del Celular (Reparaciones de celulares)</h3> 
+                        </li>
+                        <li class="ul__with-description__li">
+                            <h3 class="ul__with-description__title">2017-2019 -> Farmacia Del Salvador (Encargado de Caja)</h3> 
+                    </ul>
+            </section>
+
+            <section class="main__section--margin main__section--portfolio sectionObserver" id="portfolio">
+
+                        <div class="gallery displaced-bottom" id="gallery"></div>
+                <div class="modal-window-container" id="modalWindow">
+                    </div>
+                    <i class="fa-solid fa-xmark modal-window__icon" id="modalWindowCloseMark"></i>
+                </div>
+            </section>
+
+            <section class="contact" id="contact"><!-- contact form --> 
+                <div class="contact__container">
+                    <h2 class="contact__title">Contact</h2>
+                    <p class="contact__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, culpa! Ipsam quibusdam voluptates expedita!</p>
+                    <form class="contact__form" id="contactForm" action=""
+                    method="POST">
+                        <div class="contact__item" id="nameGroup">
+                            <div class="contact__title-alert">
+                                <h3 class="contact__item-title">Your Full Name</h3>
+                                <p class="contact__validator-txt">This field does not admit numbers or simbols</p>
+                            </div>
+                            <input class="contact__form-item" id="formName" name="name" required type="text">
+                        </div>
+                        <div class="contact__item" id="emailGroup">
+                            <div class="contact__title-alert">
+                                <h3 class="contact__item-title">Your E-mail</h3>
+                                <p class="contact__validator-txt"> Valid format for this field <strong> example@gmail.com</strong></p>
+                            </div>
+                            <input class="contact__form-item" id="formEmail" name="email" required type="text">
+                        </div>
+                        <div class="contact__item" id="subjectGroup">
+                            <div class="contact__title-alert">
+                                <h3 class="contact__item-title">Subject</h3>
+                                <p class="contact__validator-txt">This field does not admit simbols</p>
+                            </div>
+                            <input class="contact__form-item" id="formSubject" name="subject" required type="text">
+                        </div>
+                        <div class="contact__item" id="textGroup">
+                            <div class="contact__title-alert">
+                                <h3 class="contact__item-title">Menssage</h3>
+                                <p class="contact__validator-txt">The menssage can't be emptly</p> 
+                            </div>
+                            <textarea class="contact__form-item" name="text" required name="menssage" id="formTxt" cols="30" rows="10"></textarea>
+                        </div>
+                        <button class="contact__btn" type="submit">Send Menssage</button>
+                        <div class="contact__submit-msg" id="contactSuccessfully">Your menssage was sent successfully, we will contact you soon, thank you!!</div>
+                        <div class="contact__submit-msg" id="contactUnsuccessfully">you must complete all fields correctly!</div>
+                    </form>
+                    <i class="fa-solid fa-xmark modal-window__icon" id="formCloseMark"></i>
+                </div>
+            </section>
+        </main>
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="main.js"></script>
+</body>
+</html>
